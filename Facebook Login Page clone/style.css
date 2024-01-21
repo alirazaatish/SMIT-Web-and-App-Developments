@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    display: flex;
+    height: 90vh;
+    padding-top: 40px;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 400px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0.2);
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+img{
+    margin-top: 10px;
+    margin-left: 104px;
+}
+
+p{
+    margin-top: 0;
+    margin-left: 104px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+input{
+    width: 90%;
+    height: 45px;
+    border: 2px solid rgba(0, 0, 0,0.1);
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgba(0, 0, 0.5);
+    outline-style: none;
+}
+
+button{
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1876F1;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+a{
+    font-size: 14px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.new-account{
+    width: 50%;
+    height: 40px;
+    background-color: #2ed30d;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0 20px 0;
+    padding-top: 20px;
+
+}
+
+.login-btn:hover{
+    background-color: #1366d1;
+}
+
+
+.new-account:hover{
+    background-color: #63e649;
+}
