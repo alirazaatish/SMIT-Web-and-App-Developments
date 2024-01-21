@@ -1,0 +1,276 @@
+/* HEADER */
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.header{
+    display: flex;
+}
+
+.logo{
+    margin-top: 0;
+}
+li{
+    display: inline;
+    margin-right: 10px;
+    list-style: none;
+    font-size: large;
+}
+
+button{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.button-container{
+    margin-left: 200px;
+}
+
+#search-btn{
+    width: 200px;
+    height: 35px;
+    border-radius: 16px;
+}
+
+#log-in-btn{
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+}
+#log-in-btn:hover{
+    background-color: #BECCBE;
+}
+
+#sign-up-btn{
+    width:100px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: #14A800;
+    color: white;
+    font-weight: bold;
+}
+
+#sign-up-btn:hover{
+    background-color: green;
+}
+
+/* NAV BAR */
+
+nav{
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: #2f302f;
+}
+
+@font-face {
+    font-family: Domain;
+    src: url(./assets/Domine/Domine-VariableFont_wght.ttf);
+}
+
+/* Section-1 */
+.section-1{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 25px;
+}
+
+#How-work{
+    margin-top: 10px;
+    color: #14A800;
+    font-family: Domain;
+    font-size: 90px;
+}
+
+.p-1{
+    padding-top: 0%;
+    font-weight: 900;
+    font-size: x-large;
+    color: #5E6D55;
+}
+
+#Get-Started-btn{
+    width: 30%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #14A800;
+    color: white;
+}
+
+#Get-Started-btn:hover{
+    background-color: green;
+}
+
+.profile-logo{
+    margin-left: 20%;
+}
+
+/* Section-2 */
+#Trusted-by-h2{
+    padding-top: 100px;
+    font-family: Domain;
+    color: #454644;
+}
+
+/* Section-3 */
+
+.section-3{
+    margin-top: 70px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.Up-your-work-game-it’s-easy{
+    margin-left: 40px;
+}
+
+.Up-your-work-game-it’s-easy p{
+    font-size:large;
+}
+
+#Sign-up-for-free{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #14A800;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+#Sign-up-for-free:hover{
+    background-color: green;
+}
+
+#Learn-how-to-hire{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: #14A800;
+
+}
+
+/* Section-4 */
+
+.section-4{
+    margin-top: 50PX;
+}
+
+.talent-catagory{
+    font-weight: bold;
+    padding: 40px;
+    
+}
+
+.talent-catagory-list td:hover{
+    background-color: #E4EBE4;
+    border-radius: 10px;
+    height: 20px;
+}
+
+/* Section-5 */
+
+.section-5{
+    margin-top: 5%;
+    background-color: #1F57C3;
+    display: flex;
+}
+
+.content-td{
+    padding: 30px;
+    color: white;
+    font-size: x-large;
+}
+
+#find-opportunities{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    color: blue;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+#find-opportunities:hover{
+    background-color: #BECCBE;
+}
+
+/* Section-6 */
+
+.section-6{
+    display: flex;
+    margin-top: 30px;
+}
+#top-skills-green-h1{
+    font-family: Domain;
+    color: #14A800;
+}
+#top-skills{
+    color: #acb1ac;
+}
+#top-skills:hover{
+    color: #14A800;
+}
+.list-of-skills td{
+    font-size: x-large;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.list-of-skills td:hover{
+    color: #14A800;
+}
+.top-skills-table{
+    margin-left: 20%;
+}
+
+/* footer */
+
+.footer{
+    height: 600px;
+    background-color: #001E00;
+}
+.footer td{
+    padding-left: 150px;
+    color: white;
+    font-weight: 800;
+}
+
+.footer td:hover{
+    text-decoration: underline;
+}
+
+.footer-table{
+    width: 100%;
+    padding: 40px;
+}
+
+.follow-us{
+    margin-left: 200px;
+    color: white;
+}
+
+.mobile-app{
+    color: white;
+    margin-left: 200px;
+}
+#footer-li{
+    color: white;
+    margin-left: 50px;
+}
+
+#top-color{
+    color: black;
+}
