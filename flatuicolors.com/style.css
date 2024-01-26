@@ -1,0 +1,75 @@
+                                               /* index.html */
+
+/* header */
+
+.header{
+    display: flex;
+}
+
+div.Flat-UI-Colors-2{
+    margin-left: 10px;
+    color: white;
+}
+div.navbar{
+    display: block;
+    margin-top: 30px;
+    margin-left: 40%;
+    letter-spacing: 2px;
+    
+}
+#Desingner-Inspiration{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+#New{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+}
+#New:hover{
+    background-color: rgb(143, 8, 8);
+}
+#Subscribe{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+/* Main */
+
+.container div{
+    display: inline-block;
+    margin: 30px;
+    margin-right: 90px;
+    padding: 20px;
+
+}
+
+.div{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    font-size: x-large;
+}
+
+span.platette{
+    
+}
+span.number{
+    padding-left: 50px;
+    text-decoration: none;
+}
