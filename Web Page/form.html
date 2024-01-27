@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        label{
+            font-weight: bold;
+        }
+        body{
+            background-color: gray;
+        }
+        h1{
+            color: rgb(158, 40, 40);
+        }
+        h3{
+            font-weight: bold;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 style="font-weight: bold; text-decoration: underline; text-align: center;">Student Admission Form</h1>
+    <a href="./index.html"><h3>Go to home page</h3></a>
+    <form action="">
+        <fieldset>
+            <legend style="font-weight: bold;"><h3>Personal Information:</h3></legend>
+            <table>
+                <tr>
+                    <td><label for="">First Name:</label>
+                        <input type="text" placeholder="Enter your first name"></td>
+                    <td><label for="">Middle Name:</label>
+                        <input type="text" placeholder="Enter your middle name"></td>
+                    <td><label for="">Last Name:</label>
+                        <input type="text" placeholder="Enter your last name"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Father's Name:</label>
+                        <input type="text" placeholder="enter your father name"></td>
+                    <td><label for="">CNIC/Form B:</label>
+                        <input type="number" placeholder="72301-03432-4"></td>
+                    <td><label for="">Date of Birth:</label>
+                        <input type="date" placeholder="enter your DOB"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email:</label>
+                        <input type="email"placeholder="abc@gmail.com"></td>
+                    <td><label for="">Contact No:</label>
+                        <input type="tel" maxlength="11" placeholder="+923325795321"></td>
+                    <td><label for="">Landline no(Home):</label>
+                        <input type="tel" maxlength="11" placeholder="094525234563"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender:</label>
+                        <select>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </td>
+                    <td><label for="">Martial Status:</label>
+                        <select>
+                            <option value="Male">Merit</option>
+                            <option value="Female">Single</option>
+                        </select></td>
+                    <td><label for="">Domacile/Province:</label>
+                        <select>
+                            <option value="Sindh">Sindh</option>
+                            <option value="Balochistain">Balochistain</option>
+                            <option value="KPK">KPK</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Gilgit Baltistan">Gilgit Baltistan</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Postal Address:</label>
+                        <input type="text" placeholder="postal address"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Permanent Address:</label>
+                         <input type="text" placeholder="permanent address"></td>
+                </tr>
+         </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-weight: bold;"><h3>Guardian/Sponsor Information:</h3></legend>
+            <table>
+                <tr>
+                    <td><label for="">Guardian Name:</label>
+                        <input type="text" placeholder="Enter guardian Name"></td>
+                    <td><label for="">Occupation:</label>
+                        <input type="text" placeholder="occupation"></td>
+                    <td><label for="">Monthly Income:</label>
+                        <input type="number" placeholder="Income"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Ralationship:</label>
+                        <input type="text" placeholder="Ralationship"></td>
+                    <td><label for="">Mobile#</label>
+                        <input type="=tel" placeholder="phone no"></td>
+                    <td><label for="">Job Nature:</label>
+                        <input type="text" placeholder="job nature"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Address:</label>
+                    <input type="text" placeholder="address"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-weight: bold;"><h3>Academic Information:</h3></legend>
+            <h3 style="font-weight: bold; text-align: center;">SSC/O-LEVEL Education</h3>
+            <table>
+                <tr>
+                    <td><label for="">Group:</label>
+                        <select>
+                            <option value="Science">Science</option>
+                            <option value="Atrs">Atrs</option>
+                        </select></td>
+                    <td><label for="">Board:</label>
+                        <input type="text" placeholder="Board name"></td>
+                    <td><label for="">Instituion:</label>
+                        <input type="text" placeholder="School name"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Roll No#</label>
+                        <input type="number" placeholder="Roll no"></td>
+                    <td><label for="">Passing Year:</label>
+                        <input type="datetime" placeholder="Passing year"></td>
+                    <td><label for="">Obtained marks:</label>
+                        <input type="number" placeholder="Obtained marks"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Total marks</label>
+                        <input type="number" placeholder="Total marks"></td>
+                    <td><label for="">Percentage:</label>
+                        <input type="number" placeholder="Percentage"></td>
+                </tr>
+                
+            </table>
+            <h3 style="font-weight: bold; text-align: center;">HSSC/A-LEVEL Education</h3>
+            <table>
+                <tr>
+                    <td><label for="">Group:</label>
+                        <select>
+                            <option value="Pre-medical">Pre-medical</option>
+                            <option value="Pre-Engineering">Pre-Engineering</option>
+                            <option value="ICS">ICS</option>
+                            <option value="General Science">General Science</option>
+                        </select></td>
+                    <td><label for="">Board:</label>
+                        <input type="text" placeholder="Board name"></td>
+                    <td><label for="">Instituion:</label>
+                        <input type="text" placeholder="School name"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Roll No#</label>
+                        <input type="number" placeholder="Roll no"></td>
+                    <td><label for="">Passing Year:</label>
+                        <input type="datetime" placeholder="Passing year"></td>
+                    <td><label for="">Obtained marks:</label>
+                        <input type="number" placeholder="Obtained marks"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Total marks</label>
+                        <input type="number" placeholder="Total marks"></td>
+                    <td><label for="">Percentage:</label>
+                        <input type="number" placeholder="Percentage"></td>
+                </tr>   
+            </table>
+    </fieldset>
+    <fieldset>
+        <legend style="font-weight: bold;"><h3>Picture:</h3></legend>
+        <table>
+        <tr>
+            <td><input type="file" accept="image/"></td>
+            <td>
+            <pre style="font-weight: bold; font-size: larger;">
+            With white or blue background
+            File size must be less than 1MB
+            File type: jpg, jpeg, png
+            Upload your recent passport size picture
+            Your Face should be clearly visible without any Glasses
+            </pre>
+           </td>
+        </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <pre style="font-size: larger; font-style: normal;">
+           1. I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge.
+              Further, I will abide by all the established and future regulations and policies of SWIT
+           2. I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity,
+              political or ethical, but learning during my stay in the program.
+           3. Defiance will render my admission canceled at any point in time.
+           4. Upon completion, of the course, I will complete the required project by SWIT.
+           5. It's mandatory for female students to wear abaya/hijab in the class
+        </pre>
+    </fieldset>
+        <br>
+        <input type="reset"  style="color: black; background-color:#386BC0; width: 100%; font-size: 25px;" >
+
+        <input type="submit"  style="color: black; background-color:#386BC0; width: 100%; font-size: 25px; ">
+    </form>
+
+    
+</body>
+</html>
