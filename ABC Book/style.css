@@ -1,0 +1,195 @@
+@font-face{
+    font-family: atish;
+    src: url(Bungee_Spice/BungeeSpice-Regular.ttf)
+}
+
+h1{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border: none;
+    margin: 10px;
+    padding: 30px;
+    box-shadow: 0 0 30px rgb(243, 172, 172);
+    font-family: atish;
+}
+
+body{
+    background-color: #F7F9FA;
+}
+
+/* Home bar */
+
+.alphabat_menu{
+    font-weight: bold;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.alphabat_menu a{
+    background-color: bisque;
+    color: blueviolet;
+    box-shadow: 0 0 10px rgb(214, 230, 157);
+    margin: 9px;
+    padding: 9px;
+    text-decoration: none;
+}
+
+/* Objects */
+.container{
+    border: 4px solid black;
+    margin: 50px;
+    padding: 3px;
+    background-color: #FFFFFF;    
+}
+
+.img{
+    margin-left: 100px;
+    height: 244px;
+    padding-left: 25%;
+
+}
+
+.latter{
+    font-size: 100px;
+    font-family: ;
+}
+
+.for{
+    font-size: 50px;
+    
+}
+
+#alpa1{
+    font-size: 70px;
+    color: red;
+}
+
+#alpa2{
+    font-size: 70px;
+    color: #94E061;
+}
+
+#alpa3{
+    font-size: 70px;
+    color: #C47F6A;
+}
+
+#alpa4{
+    font-size: 70px;
+    color: #EE9200;
+}
+
+#alpa5{
+    font-size: 70px;
+    color: #90A1B1;
+}
+
+#alpa6{
+    font-size: 70px;
+    color: #FA9F6A;
+}
+
+#alpa7{
+    font-size: 70px;
+    color: #FFB648;
+}
+
+#alpa8{
+    font-size: 70px;
+    color: #FA9F6A;
+}
+
+#alpa9{
+    font-size: 70px;
+    color: #FA9F6A;
+}
+
+#alpa10{
+    font-size: 70px;
+    color: #FA9F6A;
+}
+
+#alpa11{
+    font-size: 70px;
+    color: #98BCE5;
+}
+
+#alpa12{
+    font-size: 70px;
+    color: #44C4A1;
+}
+
+#alpa13{
+    font-size: 70px;
+    color: #C47F6A;
+}
+
+#alpa14{
+    font-size: 70px;
+    color: #EE9200;
+}
+
+#alpa15{
+    font-size: 70px;
+    color: #FFA93F;
+}
+
+#alpa16{
+    font-size: 70px;
+    color: #32D736;
+}
+
+
+#alpa17{
+    font-size: 70px;
+    color: #B2876D
+}
+
+#alpa18{
+    font-size: 70px;
+    color: #FA9F6A;
+}
+
+#alpa19{
+    font-size: 70px;
+    color: #FFCD00
+}
+
+#alpa20{
+    font-size: 70px;
+    color: #28A528;
+}
+
+#alpa21{
+    font-size: 70px;
+    color: red;
+}
+
+#alpa22{
+    font-size: 70px;
+    color: #94E061;
+}
+
+#alpa23{
+    font-size: 70px;
+    color: #C47F6A;
+}
+
+#alpa24{
+    font-size: 70px;
+    color: #046699;
+}
+
+#alpa25{
+    font-size: 70px;
+    color: #FF6881;
+}
+
+#alpa26{
+    font-size: 70px;
+    color: #52565B;
+}
+
+
