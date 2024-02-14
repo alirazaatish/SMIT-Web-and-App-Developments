@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: px solid black;
+}
+
+.row{
+    padding: 0;
+    margin-top: 15px;
+    border: px solid red;
+}
+
+.col, .col-1,.col-2, .col-3,.col-4, .col-5,.col-6, .col-7,.col-8, .col-9,.col-10, .col-11,.col-12{
+    border: px solid blue;
+}
+
+.container-fliud{
+    border: 0px solid green;
+}
+
+.content h1{
+    text-align: center;
+    padding: 5rem;
+}
+a:hover{
+    border-bottom: 3px solid rgb(80, 206, 238);
+}
+li:hover{
+    text-decoration: underline rgb(5, 131, 235) 4px;
+}
+
+.nav-link{
+    color: #b6b3b3;
+}
+
+#footer{
+    height: 140px;
+    background-color: #727272;
+    padding-top: 40px;
+    color: white;
+}
