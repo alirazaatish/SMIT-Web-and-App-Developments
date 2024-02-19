@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+     /* NAVBAR CSS */
+#navbarSupportedContent{
+    margin-left: 10rem;
+}
+
+#nav-btn button{
+    margin-left: 0.3rem;
+}
+
+#bg-img{
+    background-image: url(./Assest/banner_bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    padding: 2rem;
+    color: white;
+}
+
+input{
+    height: 45px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+#input-span{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+input#search{
+    background-color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+
+input#job-title{
+    width: 30%;
+}
+
+.get-start-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.get-start-btn button{
+    border-radius: 100%;
+    padding: 60px;
+    background-color: #0F141A;
+    border: 3px solid white;
+    color: white;
+    font-size: x-large;
+
+}
+
+
+
